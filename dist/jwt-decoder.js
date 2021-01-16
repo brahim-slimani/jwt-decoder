@@ -29,3 +29,7 @@ resolve = (token) => {
         payload: payload(token)
     }
 }
+
+module.exports = {
+    header, payload, resolve
+}
