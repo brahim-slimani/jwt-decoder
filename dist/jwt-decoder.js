@@ -12,3 +12,13 @@ payload = (token) => {
     }
 
 }
+
+header = (token) => {
+    try {
+        const splitedToken = token.replace("Bearer ", "").split(".");
+        const decodedHeader = JSON.parse(bas64_decode(splitedToken[0]));
+        return decodedHeader;
+    } catch (error) {
+        //throw InvalidTokenException("Invalid token error: "+error.message);
+    }
+}
