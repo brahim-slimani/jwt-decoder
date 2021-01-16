@@ -22,3 +22,10 @@ header = (token) => {
         //throw InvalidTokenException("Invalid token error: "+error.message);
     }
 }
+
+resolve = (token) => {
+    return {
+        header: header(token),
+        payload: payload(token)
+    }
+}
