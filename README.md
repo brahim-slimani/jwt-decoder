@@ -1,8 +1,8 @@
-## jwt-decoder-claims is a JS Library that allows to decode JWTs (JSON Web Token), resolving the claims payload and header from the tokens.
-The library doesn't serve to verify the signature of the token or to validate it, this only allows to decode the content of the token namely the payload and the header.
+## jwt-decoder-claims is a JS Library that allows to decode JWT (JSON Web Token), resolving the claims payload and header from the tokens.
+This library doesn't serve to verify the signature of the token or to validate it, this only allows to decode the content of the token namely the payload and the header.
 
 ## Installation
-Install through NPM : `npm install jwt-decoder-claims`
+Install through NPM : `npm install jwt-decoder-claims`<br/>
 Install through Yarn : `yarn add jwt-decoder-claims`
 
 ## Usage
@@ -54,10 +54,11 @@ console.info(decodedToken);
 // }
 ```
 
-*** Important! *** In case of malformed token will throw an exception of invalid token error 
+**Important!** In case of malformed token it will throw an exception of invalid token error.<br/>
 It is recommanded to combine the decoding function with a Promise object or add try/catch block
+<br/>
 
-*** Usage with promise object ***
+**Usage with promise object**
 ```javascript
 import JWTDecoder from "jwt-decoder-claims";
 
@@ -87,7 +88,7 @@ decodeJWT(token).then((decoded) => {
 })
 ```
 
-## For commonJS usage
+## For CommonJS usage
 ```javascript
 const JWTDecoder = require('jwt-decoder-claims');
 ```
@@ -96,8 +97,8 @@ const JWTDecoder = require('jwt-decoder-claims');
 If you have any contribution request, feature or if you found a bug or any issue please report them to this [github repository](https://github.com/slimani-ibrahim/jwt-decoder)
 
 ## Demo application
-The library has been used to decode the JWTs in this simple tool [checkout here](https://slimani-ibrahim.github.io/jwt-decoder-tool/)
-Here is the [github repository](https://github.com/Slimani-Ibrahim/jwt-decoder-tool) for any feature or issues.
+jwt-decoder-claims has been used to decode the JWTs in this simple tool [checkout here](https://slimani-ibrahim.github.io/jwt-decoder-tool/)<br/>
+Here is the [github repository](https://github.com/Slimani-Ibrahim/jwt-decoder-tool) for any feature or contribution.
 
 ## Author
 [Ibrahim Slimani](https://slimani-ibrahim.github.io/profile)
