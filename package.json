@@ -1,6 +1,6 @@
 {
   "name": "jwt-decoder-claims",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "JS Library to decode JWT (JSON Web Token), getting the payload and header from the token",
   "main": "index.js",
   "scripts": {
@@ -18,7 +18,7 @@
     "browser",
     "commonJS"
   ],
-  "author": "Slimani Ibrahim",
+  "author": "Brahim SLIMANI",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/slimani-ibrahim/jwt-decoder/issues"
