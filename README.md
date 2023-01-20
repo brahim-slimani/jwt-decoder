@@ -101,4 +101,4 @@ jwt-decoder-claims has been used to decode the JWTs in this simple tool [checkou
 Here is the [github repository](https://github.com/brahim-slimani/jwt-decoder-tool) for any feature or contribution.
 
 ## Author
-[Ibrahim Slimani](https://brahim-slimani.github.io/profile)
+[Brahim Slimani](https://brahim-slimani.github.io/profile)
