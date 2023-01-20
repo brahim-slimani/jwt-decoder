@@ -94,11 +94,11 @@ const JWTDecoder = require('jwt-decoder-claims');
 ```
 
 ## Github repository
-If you have any contribution request, feature or if you found a bug or any issue please report them to this [github repository](https://github.com/slimani-ibrahim/jwt-decoder)
+If you have any contribution request, feature or if you found a bug or any issue please report them to this [github repository](https://github.com/brahim-slimani/jwt-decoder)
 
 ## Demo application
-jwt-decoder-claims has been used to decode the JWTs in this simple tool [checkout here](https://slimani-ibrahim.github.io/jwt-decoder-tool/)<br/>
-Here is the [github repository](https://github.com/Slimani-Ibrahim/jwt-decoder-tool) for any feature or contribution.
+jwt-decoder-claims has been used to decode the JWTs in this simple tool [checkout here](https://brahim-slimani.github.io/jwt-decoder-tool/)<br/>
+Here is the [github repository](https://github.com/brahim-slimani/jwt-decoder-tool) for any feature or contribution.
 
 ## Author
-[Ibrahim Slimani](https://slimani-ibrahim.github.io/profile)
+[Ibrahim Slimani](https://brahim-slimani.github.io/profile)
